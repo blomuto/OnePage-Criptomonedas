@@ -1,0 +1,112 @@
+*{margin: 0%; padding: 0; box-sizing: border-box;}
+@font-face{
+    src: url("../fonts/GothamBold.otf");
+    font-family: "GothamBold";
+}
+@font-face{
+    src: url("../fonts/GothamBook.otf");
+    font-family: "GothamRegular";
+}
+.fuente-bold{
+    font-family: "GothamBold";
+}
+.fuente-regular{
+    font-family: "GothamRegular";
+}
+p{
+    font-size: 1em;
+}
+.whatsapp{
+    right: 0px;
+    top: 75%;
+    z-index: 999;
+    position: fixed;
+}
+.Criptomax-logo{
+    max-height: 50px;
+    max-width: 100%;
+}
+.menupc{
+    display: flex;
+    justify-content: left;
+}
+.enlaces{
+    color: white!important;
+}
+.enlaces:hover{
+    color: #00AFEF !important;
+}
+.blanco{
+    color: white;
+    font-size: 1.5em;
+}
+.ir-arriba{
+    display: inline-block;
+    padding: 10px;
+    background: #030833;
+    font-size:20px;
+    color: #F5F5F5;
+    cursor:pointer;
+    position:fixed;
+    bottom:10px;
+    right:10px;
+}
+.ir-arriba:hover{
+    background: #979593;
+}
+.blancusqui{
+    color: white;
+}
+.negrusqui{
+    background-color: black;
+}
+.degradado{
+    background-image: linear-gradient(rgb(14, 14, 14), black);
+}
+.campos{
+    background-color: #dfdfdf;
+}
+.vermas2{
+    background-color:  #00AFEF;
+    color: white;
+}
+.vermas2:hover{
+    background-color: #045979;
+    color: white;
+}
+.colorIcon{
+    color: white;
+}
+.enlace-footer{
+    color: white;
+}
+.enlace-footer:hover{
+    color: #c5c1c1;
+}
+.video-responsive {
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	position: relative;
+}
+.video-responsive iframe, .video-responsive object, .video-responsive embed {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+@media screen and (min-width: 390px) and (max-width:449px){
+    .Criptomax-logo{
+        max-height: 40px;
+        max-width: 100%;
+    }
+}
+@media screen and (min-width: 0px) and (max-width:389px){
+    .Criptomax-logo{
+        max-height: 25px;
+        max-width: 100%;
+    }
+}
